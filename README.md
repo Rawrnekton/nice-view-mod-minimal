@@ -1,3 +1,19 @@
+# less power draw and improved readability
+less noice, less updates to the screen
+things I deem worthy of being on a screen:
+Connection Status
+Battery in % (undecided if this could be broken down into bigger chunks)
+Bluetooth Profile (because i need to switch between different profiles multiple times a day)
+
+# how is this different
+Other nice-view-mod forks usually use animations or widgets that are in my mind either unnecessary and/or draw to much power.
+The strenght of an epaper display is that there is no power draw when the image doesn't change. So why are you changing it constantly (sometimes at around 60fps) for something you don't even look at?
+And if you do look at e.g. a wpm gauge: What are you doing?
+
+The below is the original content of nice-view-mod repo.
+
+---
+
 # nice-view-mod
 A copy of the nice!view shield from the official ZMK firmware as a ZMK module for the purposes of easily customizing.
 As provided, it should function exactly like the current nice!view shield present in the ZMK firmware.
